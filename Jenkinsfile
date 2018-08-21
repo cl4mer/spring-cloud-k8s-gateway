@@ -3,7 +3,7 @@ pipeline {
       label "jenkins-maven"
     }
     environment {
-      ORG               = 'salaboy'
+      ORG               = 'paolocarta'
       APP_NAME          = 'spring-cloud-k8s-gateway'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
